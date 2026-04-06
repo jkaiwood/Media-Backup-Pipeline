@@ -1,7 +1,6 @@
 Overview
 --
-This project implements a fully automated, secure backup system for a Raspberry Pi. It uses Bash scripting and scheduled tasks to back up selected directories and transfer them offsite to a Nextcloud server.  
-The goal is to create a reliable, reproducible, and secure backup workflow similar to what a Linux system administrator would deploy in production. The motivation behind it is I am running a media server on my Pi and unfortunately disaster has struck before and I lost all my data. So to future proof anything that could happen I decided to set up this project and protect the media and I also get to understand nextcloud and automated pipelines. I am using docker containers for most of this so in the future I plan to migrate the server to a NAS since it will be more powerful than the Pi and will handle the load of streaming better. 
+This project implements a fully automated, secure backup system for a Raspberry Pi. It uses Bash scripting and scheduled tasks to back up selected directories and transfer them offsite to a Nextcloud server. The goal is to create a reliable, reproducible, and secure backup workflow similar to what a Linux system administrator would deploy in production. The motivation behind it is I am running a media server on my Pi and unfortunately disaster has struck before and I lost all my data. So to future proof anything that could happen I decided to set up this project and protect the media and I also get to understand nextcloud and automated pipelines. I am using docker containers for most of this so in the future I plan to migrate the server to a NAS since it will be more powerful than the Pi and will handle the load of streaming better. 
 
 
 
