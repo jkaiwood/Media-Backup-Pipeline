@@ -19,13 +19,16 @@ Features
 
 Backup Workflow
 --
-1. Identify directories to back up  
-2. Create incremental backup using rsync  
-3. Encrypt backup archive  
-4. Transfer backup to Nextcloud via SSH 
-5. Verify transfer integrity  
-6. Log results  
-7. Send notification on success/failure  
+1. Identify directories to back up 
+2. Backup and encrypt directories through an automated cron script 
+3. Transfer files offhost through sftp
+4. Extract files and create incremental backup using rsync 
+5. Place files in nextcloud directory
+6. Verify transfer integrity  
+7. Log results  
+8. Send notification on success/failure 
+
+** An SSH key will have to be generated and shared with the remote host so that the script can communicate with it securely and without interruption, otherwise the script will get hung waiting for you to enter your credentials when trying to transfer the files.
 
 
 Restore Procedures
