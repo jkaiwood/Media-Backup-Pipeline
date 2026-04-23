@@ -29,8 +29,10 @@ Backup Workflow
 8. Send notification on success/failure 
 
 ** An SSH key will have to be generated and shared with the remote host so that the script can communicate with it securely and without interruption, otherwise the script will get hung waiting for you to enter your credentials when trying to transfer the files.
-
-
+Use key gen for this and store it in a safe place
+```markdown
+ssh-keygen -t ed25519 -C "username"
+```
 Restore Procedures
 --
 1. Download the desired backup from Nextcloud
